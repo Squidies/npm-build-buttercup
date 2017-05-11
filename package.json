@@ -45,6 +45,7 @@
     "css-mqpacker": "^6.0.0",
     "cssnano": "^3.10.0",
     "imagemin-cli": "^3.0.0",
+    "mkdirp": "^0.5.1",
     "node-sass": "^4.5.2",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",
@@ -60,6 +61,7 @@
     "rollup-plugin-strip": "^1.1.1",
     "rollup-plugin-uglify": "^1.0.2",
     "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
     "svg-sprite-generator": "0.0.7",
     "svgo": "^0.7.2"
   },
