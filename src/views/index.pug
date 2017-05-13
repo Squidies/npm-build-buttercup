@@ -7,16 +7,30 @@ html.no-js(lang="en")
     meta(name="viewport" content="width=device-width, initial-scale=1")
 
     title Build Buttercup
-    link(rel="apple-touch-icon" href="apple-touch-icon.png")
+    link(rel="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="/favicon-16x16.png")
+    link(rel="icon", type="image/x-icon", href="favicon.ico")
+    link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")
+    link(rel="manifest", href="/manifest.json")
+    link(rel="mask-icon", href="/safari-pinned-tab.svg", color="#bada55")
+    meta(name="theme-color", content="#ffffff")
 
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700")
     link(rel="stylesheet", href="vendor/sanitize.css")
     link(rel="stylesheet", href="assets/css/styles.css")
     style(type="text/css").
       img {
         max-width: 100%;
       }
+
+      body {
+        font-family: 'Libre Baskerville', serif;
+      }
   body
-    h1 Build Me Up
-    img(src="assets/images/buttercup.png", alt="buttercup")
+
+    header.header
+      h1 Build Me Up
+      img(src="assets/images/buttercup.png", alt="buttercup")
 
     script(src="assets/js/app.js")
