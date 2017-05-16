@@ -8,7 +8,7 @@ import replace from 'rollup-plugin-replace';
 import uglify from 'rollup-plugin-uglify';
 import strip from 'rollup-plugin-strip';
 
-/** Short Circut Evaluation used to process NODE_ENV variables set to 'production'.
+/** Short Circuit Evaluation used to process NODE_ENV variables set to 'production'.
   *
   * Further reading:
   *   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Short-circuit_evaluation
