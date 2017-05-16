@@ -26,3 +26,12 @@ builds all assets but does not run a reloading server or watch files.
 #### `buttercup:prod`
 
 adds minification to `buttercup:build` task
+
+
+#### Notes
+
+  `pug-cli` on npm currently not up to date with version on github which adds ability
+  to ignore files/folders with a prepending underscore "`_`" character.
+  to get to current version, manually download `pug-cli` from github,
+  extract it and place in `node_modules` folder (this will over-write current installed files/folders)
+  [Issue #59](https://github.com/pugjs/pug-cli/issues/59)
