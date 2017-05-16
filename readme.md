@@ -30,8 +30,4 @@ adds minification to `buttercup:build` task
 
 #### Notes
 
-  `pug-cli` on npm currently not up to date with version on github which adds ability
-  to ignore files/folders with a prepending underscore "`_`" character.
-  to get to current version, manually download `pug-cli` from github,
-  extract it and place in `node_modules` folder (this will over-write current installed files/folders)
-  [Issue #59](https://github.com/pugjs/pug-cli/issues/59)
+`pug-cli` on npm currently not up to date with version on github [(Issue #59)](https://github.com/pugjs/pug-cli/issues/59) which adds ability to ignore files/folders with a prepending underscore "`_`" character. To get to current version, from the command-line you can run `npm i pugjs/pug-cli` to download directly from the projects github repository and override current npm installed version or you can manually download `pug-cli` from github, extract it and place in `node_modules` folder to override current npm version.
